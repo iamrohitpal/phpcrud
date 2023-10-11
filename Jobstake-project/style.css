@@ -1,0 +1,130 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(233, 233, 233);
+}
+.container-full{
+    height: 500px;
+    width: auto;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+}
+.hcontainer{
+    width: 60%;
+    margin: 0px auto;
+    display: flex;
+}
+.container{
+    width: 60%;
+    margin: 0px auto;
+    padding-bottom: 50px;
+}
+.logosection{
+    margin: 10px;
+}
+.post-a-job-section{
+    margin: 12px;
+    margin-left: auto;
+}
+.btn{
+    height: 25px;
+    width: 100px;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    background-color: #0000ff6b;
+}
+.searchbox{
+    width: 100%;
+    height: 120px;
+    background-color: #0000ff6b;
+    display: flex;
+    justify-content: center;
+}
+.searchsection{
+    margin: auto 0px;
+}
+.inputbox{
+    height: 30px;
+    width: 400px;
+}
+.searchbtn{
+    height: 36px;
+    width: 175px;
+    background-color: #2196F3;
+}
+.jobcontainer{
+    margin-top: 20px;
+    border: 1px solid #0000001c;
+    background-color: white;
+}
+.jobdes{
+    width: auto;
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid #0000001c;
+    border-radius: 5px;
+    display: flex;
+}
+.imgsection{
+    display: block!important;
+}
+.contentsection{
+    margin-top: 0px;
+    margin-left: 20px;
+    line-height: 8px;
+}
+
+/* post job css */
+
+.post-job-container{
+    width: 45%;
+    margin: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: white;
+}
+.input-box{
+    width: 100%;
+    height: 25px;
+}
+.submit-btn{
+    margin: 10px;
+    height: 30px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(253, 135, 0);
+}
+.title{
+    text-align: center;
+}
+
+/* preview post css */
+.post-button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* Dashboard css code */
+.headline-title{
+    width: 25%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    background-color: #0000ff6b;
+}
+
+.post-button1{
+    display: block!important;
+}
